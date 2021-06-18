@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C&C Transportes - Empresa de Transporte de Carga y Mudanza</title>
+    <meta class="metaTagTop" name="description" content="Nos encargamos de llevar de forma rápida y segura tus cosas a tu nuevo hogar ">
+    <meta property="og:title" content="C&C Transportes - Empresa de Transporte de Carga y Mudanza">
+    <meta property="og:description" content="Nos encargamos de llevar de forma rápida y segura tus cosas a tu nuevo hogar ">
+    <script src="https://kit.fontawesome.com/3ec8bc669f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <header>
+        <section class="textos-header">
+            <h1>¿Buscas un transporte para tu mudanza?</h1>
+            <h2> <img class="img-whatsapp" src="img/icon_whatsapp.png" alt=""> 962 211 147</h2>
+            <!--centenido del formulario escondido-->
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <p  class="titulopopud">¡Regístrate y te contactaremos!</p>
+                  <!--formulario-->
+                  <form action="php/formulario_envio.php" method="post">
+                    <input type="text" name="nombre" placeholder="tus nombres:">
+                    <br>
+                    <input type="text" name="correo" placeholder="tu correo:">
+                    <br>
+                    <input type="text" name="whatsapp" placeholder="tu whatsapp:">
+                    <br>
+                    <input type="text" name="servicio" placeholder="Que servicio deseas:">
+                    
+                    <button type="submit">ENVIAR</button>
+                  </form>
+                  <!--fin-->
+                </div>
+              </div>
+            <!--fin-->
+            <h3 onclick="togglePopup()">Quiero cotizar</h3>
+            
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #f1f1f1;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor como-funciona">
+            <h2 class="titulo">Cómo Funciona</h2>
+            <div class="contenedor-como-funciona">
+                <img src="img/repartidor.png" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Nos contactas al WhatsApp. 962 211 147 ó contacto@cctransportes.com</h3>
+        
+                    <h3><span>2</span>Te proporcionamos un presupuesto estimado con la información que nos entregas.</h3>
+                    
+                    <h3><span>3</span>​Nos apruebas el presupuesto y si no llegáramos a un acuerdo nos cancelas la visita. (tarifa estimada por distrito)</h3>
+                   
+                    <h3><span>4</span>​Ponemos a tu disposición el mejor equipo humano y de transportes.</h3>
+                   
+                    <h3><span>5</span>Puedes contratar nuestro servicio de embalaje.</h3>
+                
+                    <h3><span>6</span>​Utilizamos camiones de furgón cerrado e higiénico y en perfecto estado.</h3>
+                    
+                    <h3><span>7</span>Nosotros utilizamos protocolos de seguridad, sin este no podemos iniciar el servicio.</h3>
+
+                    <h3><span>8</span>​Aseguramos su mercancía llegue bien a su destino.</h3>
+
+                    <h3><span>9</span>​Montamos todo el mobiliario de su domicilio y listo!</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/marco.png" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Marco L.</h4>
+                        <p>Puntuales y con todos los protocolos de bioseguridad. Recomendadísimo!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/rosa.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Rosa F.</h4>
+                        <p>Gracias por ayudarme con mi mudanza! Todo fue super rápido!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/camion.png" alt="">
+                        <h3 >Solo Transporte</h3>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/transporteycarga.png" alt="">
+                        <h3>Transporte y Carga</h3>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/cargayenbalaje.png" alt="">
+                        <h3>Transporte, Carga y Embalaje</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>962 211 147</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>soporte@cctransportes.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Dirección</h4>
+                <p>Trujillo - Perú</p>
+            </div>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://instagram.com/cctransportes2021?igshid=1fnkyb4mxy39y"><i class="fab fa-instagram-square fa-2x" style="color: #f1f1f1;"></i></a>
+            <a href="https://www.facebook.com/CC-Transportes-109531541222631"><i class="fab fa-facebook-square fa-2x" style="color: #f1f1f1;"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=51962211147"><i class="fab fa-whatsapp-square fa-2x" style="color: #f1f1f1;"></i></a>
+        </div>
+        <img src="img/logo.png" class="img-logo">
+        <!--h2 class="titulo-final"> C&C TRANSPORTES 2021</h2-->
+    </footer>
+    <script src="js/popud-formulario.js"></script>
+</body>
+<script src="js/popud-formulario.js"></script>
+</html>
